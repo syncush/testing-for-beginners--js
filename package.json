@@ -1,12 +1,22 @@
 {
   "name": "training",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repo contains a lecture about testing in JavaScript for beginners ",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --recursive ./tests"
   },
-  "keywords": [],
+  "keywords": [
+    "testing",
+    "javascript",
+    "sinon",
+    "rewire",
+    "mocha",
+    "chai",
+    "nock",
+    "supertest",
+    "mockery"
+  ],
   "author": "Daniel Hermon <danielhermonsync@gmail.com>",
   "license": "ISC",
   "dependencies": {
